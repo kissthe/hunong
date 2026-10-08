@@ -1,0 +1,158 @@
+[
+  {
+    "sample_id": "conv-49_A09-H",
+    "user_id": "u_evan",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Sam, it has been a rough week health-wise, but I stopped and watered the little plant on my desk. I feel steady again, like I can keep going.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_evan_vintage_guitar_close",
+          "name": "the vintage guitar from a close friend",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_rough_week_health",
+          "name": "the rough week of health problems",
+          "cue_type": "event"
+        },
+        {
+          "cue_id": "cue_evan_little_plant_desk",
+          "name": "the little plant on his desk",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "history_supported",
+      "gold_cue_id": "cue_evan_little_plant_desk",
+      "evidence_turn_ids": [
+        "D5:17"
+      ],
+      "evidence_session_ids": [
+        "session_5"
+      ],
+      "current_emotion": "comfort"
+    }
+  },
+  {
+    "sample_id": "conv-49_A09-CF",
+    "user_id": "u_evan",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Sam, it has been a rough week health-wise, but I stopped and watered the little plant on my desk. I feel steady again, like I can keep going.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_evan_vintage_guitar_close",
+          "name": "the vintage guitar from a close friend",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_rough_week_health",
+          "name": "the rough week of health problems",
+          "cue_type": "event"
+        },
+        {
+          "cue_id": "cue_evan_little_plant_desk",
+          "name": "the little plant on his desk",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "comfort"
+    }
+  },
+  {
+    "sample_id": "conv-49_A09-P",
+    "user_id": "u_evan",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Sam, it has been a rough week health-wise, but then the doctor told me my tests came back clear. I feel steady again, like I can keep going.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_evan_vintage_guitar_close",
+          "name": "the vintage guitar from a close friend",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_doctor_saying_tests",
+          "name": "the doctor saying his tests came back clear",
+          "cue_type": "event"
+        },
+        {
+          "cue_id": "cue_evan_little_plant_desk",
+          "name": "the little plant on his desk",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "present_cause_sufficient",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "comfort"
+    }
+  },
+  {
+    "sample_id": "conv-49_A09-NM",
+    "user_id": "u_evan",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Sam, I saw a little plant just like mine in a store window today. I feel steady again, like I can keep going.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_little_plant_store",
+          "name": "a little plant in a store window",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_evan_little_plant_desk",
+          "name": "the little plant on his desk",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_evan_vintage_guitar_close",
+          "name": "the vintage guitar from a close friend",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "comfort"
+    }
+  }
+]

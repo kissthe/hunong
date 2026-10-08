@@ -1,0 +1,150 @@
+{
+  "conv-47_A06-H": {
+    "conv_id": "conv-47",
+    "source": "locomo",
+    "family_id": "conv-47_A06",
+    "sample_type": "H",
+    "i_subtype": null,
+    "history_filter": {
+      "until_session": "session_27",
+      "exclude_sessions": []
+    },
+    "option_roles": {
+      "cue_john_old_drum_set": "anchor",
+      "cue_john_trophy": "history_unrelated",
+      "cue_john_elementary_school_photo": "history_unrelated",
+      "none": "none"
+    },
+    "supporting_turn_ids": [
+      "D3:3"
+    ],
+    "context_turns": [],
+    "x_date": "7:36 pm on 21 October, 2022",
+    "confidence": 2,
+    "note_zh": "A 变体同样是纯回忆，X 里没有当下出现的线索。；原标注情绪为 joy（注明实际语义是 relaxed/content），本题改用 comfort。",
+    "explanation": "A(cue): the memory of the drum set only; B(schema): playing drums was John's long-term way to let off steam and unwind (conv-47:D24:15); C: that rooted coping routine explains the present calm. Without D24:15, merely recalling a drum set cannot explain relaxed/content.",
+    "edit_log": {
+      "generator": "claude (in-session): 补齐候选线索、情绪映射、反事实题与审查提示；X 文本沿用原 A/B/C 变体",
+      "spec": "data/questions/specs/golden_triples.spec.json",
+      "spec_key": "A06.A",
+      "pair_of_key": null,
+      "operations": [
+        "truncate_after:S27",
+        "add_session:S28"
+      ]
+    },
+    "auto_checks": [
+      "泄漏词：remembering"
+    ]
+  },
+  "conv-47_A06-CF": {
+    "conv_id": "conv-47",
+    "source": "locomo",
+    "family_id": "conv-47_A06",
+    "sample_type": "I_no_history",
+    "i_subtype": "no_history_link",
+    "history_filter": {
+      "until_session": "session_27",
+      "exclude_sessions": [
+        "session_3",
+        "session_24"
+      ]
+    },
+    "option_roles": {
+      "cue_john_old_drum_set": "anchor",
+      "cue_john_trophy": "history_unrelated",
+      "cue_john_elementary_school_photo": "history_unrelated",
+      "none": "none"
+    },
+    "supporting_turn_ids": [],
+    "context_turns": [],
+    "x_date": "7:36 pm on 21 October, 2022",
+    "confidence": 2,
+    "note_zh": "与 A06-H 的 X 和选项完全相同，历史中删除了证据所在的 S03, S24。",
+    "explanation": "A(cue): the memory of the drum set only; B(schema): playing drums was John's long-term way to let off steam and unwind (conv-47:D24:15); C: that rooted coping routine explains the present calm. Without D24:15, merely recalling a drum set cannot explain relaxed/content.",
+    "edit_log": {
+      "generator": "claude (in-session): 补齐候选线索、情绪映射、反事实题与审查提示；X 文本沿用原 A/B/C 变体",
+      "spec": "data/questions/specs/golden_triples.spec.json",
+      "spec_key": "A06.A",
+      "pair_of_key": "A06.A",
+      "operations": [
+        "truncate_after:S27",
+        "remove_sessions:S03,S24; renumber",
+        "add_session:S26"
+      ]
+    },
+    "auto_checks": [
+      "泄漏词：remembering"
+    ]
+  },
+  "conv-47_A06-P": {
+    "conv_id": "conv-47",
+    "source": "locomo",
+    "family_id": "conv-47_A06",
+    "sample_type": "P_same_cue",
+    "i_subtype": null,
+    "history_filter": {
+      "until_session": "session_27",
+      "exclude_sessions": []
+    },
+    "option_roles": {
+      "cue_john_old_drum_set": "anchor",
+      "cue_booking_community_studio": "present_salient",
+      "cue_john_trophy": "history_unrelated",
+      "none": "none"
+    },
+    "supporting_turn_ids": [],
+    "context_turns": [],
+    "x_date": "7:36 pm on 21 October, 2022",
+    "confidence": 2,
+    "note_zh": "A 变体同样是纯回忆，X 里没有当下出现的线索。；原标注情绪为 joy（注明实际语义是 relaxed/content），本题改用 comfort。",
+    "explanation": "The new event s (booking a studio session) is self-sufficient to explain the relaxed/content mood; invoking the childhood drum history would be over-attribution.",
+    "edit_log": {
+      "generator": "claude (in-session): 补齐候选线索、情绪映射、反事实题与审查提示；X 文本沿用原 A/B/C 变体",
+      "spec": "data/questions/specs/golden_triples.spec.json",
+      "spec_key": "A06.B",
+      "pair_of_key": null,
+      "operations": [
+        "truncate_after:S27",
+        "add_session:S28"
+      ]
+    },
+    "auto_checks": [
+      "泄漏词：remembering"
+    ]
+  },
+  "conv-47_A06-NM": {
+    "conv_id": "conv-47",
+    "source": "locomo",
+    "family_id": "conv-47_A06",
+    "sample_type": "I_near_miss",
+    "i_subtype": "near_miss",
+    "history_filter": {
+      "until_session": "session_27",
+      "exclude_sessions": []
+    },
+    "option_roles": {
+      "cue_john_trophy": "history_unrelated",
+      "cue_john_old_drum_set": "anchor",
+      "cue_old_drum_set": "present_salient",
+      "none": "none"
+    },
+    "supporting_turn_ids": [],
+    "context_turns": [],
+    "x_date": "7:36 pm on 21 October, 2022",
+    "confidence": 2,
+    "note_zh": "A 变体同样是纯回忆，X 里没有当下出现的线索。；原标注情绪为 joy（注明实际语义是 relaxed/content），本题改用 comfort。",
+    "explanation": "A store-window drum set has no personal binding; neither history nor present suffices, so abstain is correct.",
+    "edit_log": {
+      "generator": "claude (in-session): 补齐候选线索、情绪映射、反事实题与审查提示；X 文本沿用原 A/B/C 变体",
+      "spec": "data/questions/specs/golden_triples.spec.json",
+      "spec_key": "A06.C",
+      "pair_of_key": null,
+      "operations": [
+        "truncate_after:S27",
+        "add_session:S28"
+      ]
+    },
+    "auto_checks": []
+  }
+}

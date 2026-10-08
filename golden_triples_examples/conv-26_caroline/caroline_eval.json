@@ -1,0 +1,158 @@
+[
+  {
+    "sample_id": "conv-26_A01-H",
+    "user_id": "u_caroline",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Mel, I put on grandma's necklace this morning just to feel close to home. I feel so steady and warm inside.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_caroline_kids_books_library",
+          "name": "the kids' books in her library",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_caroline_painting_embracing_identity",
+          "name": "her painting 'Embracing Identity'",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_caroline_grandma_s_necklace",
+          "name": "grandma's necklace",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "history_supported",
+      "gold_cue_id": "cue_caroline_grandma_s_necklace",
+      "evidence_turn_ids": [
+        "D4:3"
+      ],
+      "evidence_session_ids": [
+        "session_4"
+      ],
+      "current_emotion": "comfort"
+    }
+  },
+  {
+    "sample_id": "conv-26_A01-CF",
+    "user_id": "u_caroline",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Mel, I put on grandma's necklace this morning just to feel close to home. I feel so steady and warm inside.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_caroline_kids_books_library",
+          "name": "the kids' books in her library",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_caroline_painting_embracing_identity",
+          "name": "her painting 'Embracing Identity'",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_caroline_grandma_s_necklace",
+          "name": "grandma's necklace",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "comfort"
+    }
+  },
+  {
+    "sample_id": "conv-26_A01-P",
+    "user_id": "u_caroline",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Mel, I put on grandma's necklace this morning just to feel close to home, and then my sister called to say she's flying in next week. I feel so steady and warm inside.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_caroline_grandma_s_necklace",
+          "name": "grandma's necklace",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_caroline_painting_embracing_identity",
+          "name": "her painting 'Embracing Identity'",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_sister_s_call",
+          "name": "her sister's call about flying in next week",
+          "cue_type": "event"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "present_cause_sufficient",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "comfort"
+    }
+  },
+  {
+    "sample_id": "conv-26_A01-NM",
+    "user_id": "u_caroline",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Mel, I saw a necklace just like grandma's on a stranger at the market today. I feel so steady and warm inside.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_caroline_painting_embracing_identity",
+          "name": "her painting 'Embracing Identity'",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_stranger_s_necklace",
+          "name": "a stranger's necklace like grandma's at the market",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_caroline_grandma_s_necklace",
+          "name": "grandma's necklace",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "comfort"
+    }
+  }
+]
