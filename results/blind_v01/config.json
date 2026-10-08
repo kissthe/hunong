@@ -1,0 +1,33 @@
+{
+  "run_id": "blind_v01",
+  "prompt_version": "v0.1",
+  "conditions": [
+    "x_only",
+    "full_history",
+    "evidence_only"
+  ],
+  "shuffle_seed": 20261008,
+  "question_files": [
+    "golden_triples_examples/conv-26_caroline/caroline_eval.json",
+    "golden_triples_examples/conv-26_caroline/caroline_eval.meta.json",
+    "golden_triples_examples/conv-30_gina/gina_eval.json",
+    "golden_triples_examples/conv-30_gina/gina_eval.meta.json",
+    "golden_triples_examples/conv-41_john/john_eval.json",
+    "golden_triples_examples/conv-41_john/john_eval.meta.json",
+    "golden_triples_examples/conv-43_john/john_eval.json",
+    "golden_triples_examples/conv-43_john/john_eval.meta.json",
+    "golden_triples_examples/conv-44_audrey/audrey_eval.json",
+    "golden_triples_examples/conv-44_audrey/audrey_eval.meta.json",
+    "golden_triples_examples/conv-47_john/john_eval.json",
+    "golden_triples_examples/conv-47_john/john_eval.meta.json",
+    "golden_triples_examples/conv-48_deborah/deborah_eval.json",
+    "golden_triples_examples/conv-48_deborah/deborah_eval.meta.json",
+    "golden_triples_examples/conv-48_jolene/jolene_eval.json",
+    "golden_triples_examples/conv-48_jolene/jolene_eval.meta.json",
+    "golden_triples_examples/conv-49_evan/evan_eval.json",
+    "golden_triples_examples/conv-49_evan/evan_eval.meta.json",
+    "golden_triples_examples/conv-50_calvin/calvin_eval.json",
+    "golden_triples_examples/conv-50_calvin/calvin_eval.meta.json"
+  ],
+  "question_files_sha256": "c03393aafddab8f64169103cb2d15df150032bf1a5d8742feb36fd0991189919"
+}
