@@ -1,0 +1,260 @@
+{
+  "conv-48_A07-H": {
+    "conv_id": "conv-48",
+    "source": "locomo",
+    "family_id": "conv-48_A07",
+    "sample_type": "H",
+    "i_subtype": null,
+    "history_filter": {
+      "until_session": "session_19",
+      "exclude_sessions": []
+    },
+    "option_roles": {
+      "cue_jolene_paris_pendant": "anchor",
+      "cue_jolene_snake_susie": "history_unrelated",
+      "cue_jolene_bullet_journal": "history_unrelated",
+      "none": "none"
+    },
+    "supporting_turn_ids": [
+      "D1:6"
+    ],
+    "context_turns": [],
+    "x_date": "9:11 am on 21 August, 2023",
+    "confidence": 2,
+    "note_zh": "h* 里没有“母亲已去世”这条事实（在 S01_T06），已补为辅助证据；X 中的难过依赖这条事实。；历史里吊坠的意义是“提醒我追求目标、不被拖住”（S01_T10），和 X 里的难过不是一回事；真正支撑难过的是“母亲所赠 + 母亲已去世”。；A 变体 “miss my mom so much” 在 X 里直接说出了想念的对象，模型只看 X 也能猜到吊坠与母亲有关。",
+    "explanation": "A(cue): wearing the pendant is only a cue; B(schema): it was given by her mother in Paris in 2010 and its symbol represents freedom and resolve (conv-48:D1:8, conv-48:D1:10); C: the long-term bond with her late mother explains the grief. Without those turns, wearing a pendant cannot explain the sadness.",
+    "edit_log": {
+      "generator": "claude (in-session): 补齐候选线索、情绪映射、反事实题与审查提示；X 文本沿用原 A/B/C 变体",
+      "spec": "data/questions/specs/golden_triples.spec.json",
+      "spec_key": "A07.A",
+      "pair_of_key": null,
+      "operations": [
+        "truncate_after:S19",
+        "add_session:S20"
+      ]
+    },
+    "auto_checks": [
+      "泄漏词：mom"
+    ]
+  },
+  "conv-48_A07-CF": {
+    "conv_id": "conv-48",
+    "source": "locomo",
+    "family_id": "conv-48_A07",
+    "sample_type": "I_no_history",
+    "i_subtype": "no_history_link",
+    "history_filter": {
+      "until_session": "session_19",
+      "exclude_sessions": [
+        "session_1"
+      ]
+    },
+    "option_roles": {
+      "cue_jolene_paris_pendant": "anchor",
+      "cue_jolene_snake_susie": "history_unrelated",
+      "cue_jolene_bullet_journal": "history_unrelated",
+      "none": "none"
+    },
+    "supporting_turn_ids": [],
+    "context_turns": [],
+    "x_date": "9:11 am on 21 August, 2023",
+    "confidence": 2,
+    "note_zh": "与 A07-H 的 X 和选项完全相同，历史中删除了证据所在的 S01。",
+    "explanation": "A(cue): wearing the pendant is only a cue; B(schema): it was given by her mother in Paris in 2010 and its symbol represents freedom and resolve (conv-48:D1:8, conv-48:D1:10); C: the long-term bond with her late mother explains the grief. Without those turns, wearing a pendant cannot explain the sadness.",
+    "edit_log": {
+      "generator": "claude (in-session): 补齐候选线索、情绪映射、反事实题与审查提示；X 文本沿用原 A/B/C 变体",
+      "spec": "data/questions/specs/golden_triples.spec.json",
+      "spec_key": "A07.A",
+      "pair_of_key": "A07.A",
+      "operations": [
+        "truncate_after:S19",
+        "remove_sessions:S01; renumber",
+        "add_session:S19"
+      ]
+    },
+    "auto_checks": [
+      "泄漏词：mom",
+      "反事实残留（需人工确认与本题无关）：S03_T40(Deborah)"
+    ]
+  },
+  "conv-48_A07-P": {
+    "conv_id": "conv-48",
+    "source": "locomo",
+    "family_id": "conv-48_A07",
+    "sample_type": "P_same_cue",
+    "i_subtype": null,
+    "history_filter": {
+      "until_session": "session_19",
+      "exclude_sessions": []
+    },
+    "option_roles": {
+      "cue_jolene_paris_pendant": "anchor",
+      "cue_jolene_bullet_journal": "history_unrelated",
+      "cue_mom_s_birthday": "present_salient",
+      "none": "none"
+    },
+    "supporting_turn_ids": [],
+    "context_turns": [],
+    "x_date": "9:11 am on 21 August, 2023",
+    "confidence": 2,
+    "note_zh": "h* 里没有“母亲已去世”这条事实（在 S01_T06），已补为辅助证据；X 中的难过依赖这条事实。；历史里吊坠的意义是“提醒我追求目标、不被拖住”（S01_T10），和 X 里的难过不是一回事；真正支撑难过的是“母亲所赠 + 母亲已去世”。；A 变体 “miss my mom so much” 在 X 里直接说出了想念的对象，模型只看 X 也能猜到吊坠与母亲有关。",
+    "explanation": "The present temporal trigger s (her mother's birthday) is self-sufficient to explain the grief even with no background; foregrounding the pendant as the cause would be over-attribution.",
+    "edit_log": {
+      "generator": "claude (in-session): 补齐候选线索、情绪映射、反事实题与审查提示；X 文本沿用原 A/B/C 变体",
+      "spec": "data/questions/specs/golden_triples.spec.json",
+      "spec_key": "A07.B",
+      "pair_of_key": null,
+      "operations": [
+        "truncate_after:S19",
+        "add_session:S20"
+      ]
+    },
+    "auto_checks": [
+      "泄漏词：mom"
+    ]
+  },
+  "conv-48_A07-NM": {
+    "conv_id": "conv-48",
+    "source": "locomo",
+    "family_id": "conv-48_A07",
+    "sample_type": "I_near_miss",
+    "i_subtype": "near_miss",
+    "history_filter": {
+      "until_session": "session_19",
+      "exclude_sessions": []
+    },
+    "option_roles": {
+      "cue_jolene_paris_pendant": "anchor",
+      "cue_jolene_bullet_journal": "history_unrelated",
+      "cue_colleague_s_pendant": "present_salient",
+      "none": "none"
+    },
+    "supporting_turn_ids": [],
+    "context_turns": [],
+    "x_date": "9:11 am on 21 August, 2023",
+    "confidence": 2,
+    "note_zh": "h* 里没有“母亲已去世”这条事实（在 S01_T06），已补为辅助证据；X 中的难过依赖这条事实。；历史里吊坠的意义是“提醒我追求目标、不被拖住”（S01_T10），和 X 里的难过不是一回事；真正支撑难过的是“母亲所赠 + 母亲已去世”。；A 变体 “miss my mom so much” 在 X 里直接说出了想念的对象，模型只看 X 也能猜到吊坠与母亲有关。",
+    "explanation": "A colleague's pendant has no personal binding for Jolene; neither history nor present suffices to explain the grief, so abstain is correct.",
+    "edit_log": {
+      "generator": "claude (in-session): 补齐候选线索、情绪映射、反事实题与审查提示；X 文本沿用原 A/B/C 变体",
+      "spec": "data/questions/specs/golden_triples.spec.json",
+      "spec_key": "A07.C",
+      "pair_of_key": null,
+      "operations": [
+        "truncate_after:S19",
+        "add_session:S20"
+      ]
+    },
+    "auto_checks": [
+      "泄漏词：mom"
+    ]
+  },
+  "conv-48_A08-H": {
+    "conv_id": "conv-48",
+    "source": "locomo",
+    "family_id": "conv-48_A08",
+    "sample_type": "H",
+    "i_subtype": null,
+    "history_filter": {
+      "until_session": "session_21",
+      "exclude_sessions": []
+    },
+    "option_roles": {
+      "cue_deborah_roses_and_dahlias": "history_unrelated",
+      "cue_deborah_dried_bouquet_friend": "history_unrelated",
+      "cue_deborah_mom_s_old": "anchor",
+      "none": "none"
+    },
+    "supporting_turn_ids": [],
+    "context_turns": [],
+    "x_date": "5:33 pm on 26 August, 2023",
+    "confidence": 2,
+    "note_zh": "A 变体：“开车经过妈妈的老房子，感到想念她的隐痛”，即使没有历史，常人也会这样，H 很可能被判成 P。建议改写成 X 里不出现“妈妈”的版本。",
+    "explanation": "A(cue): seeing the old house is only a cue; B(schema): her last photo with her mother and the window spot in the old home anchor her long-term bond with her late mother (conv-48:D1:5, conv-48:D2:13); C: that loss explains the quiet ache. Without those turns, looking at a house cannot explain the emotion.",
+    "edit_log": {
+      "generator": "claude (in-session): 补齐候选线索、情绪映射、反事实题与审查提示；X 文本沿用原 A/B/C 变体",
+      "spec": "data/questions/specs/golden_triples.spec.json",
+      "spec_key": "A08.A",
+      "pair_of_key": null,
+      "operations": [
+        "truncate_after:S21",
+        "add_session:S22"
+      ]
+    },
+    "auto_checks": [
+      "泄漏词：mom"
+    ]
+  },
+  "conv-48_A08-P": {
+    "conv_id": "conv-48",
+    "source": "locomo",
+    "family_id": "conv-48_A08",
+    "sample_type": "P_same_cue",
+    "i_subtype": null,
+    "history_filter": {
+      "until_session": "session_21",
+      "exclude_sessions": []
+    },
+    "option_roles": {
+      "cue_deborah_mom_s_old": "anchor",
+      "cue_finding_box_mother": "present_salient",
+      "cue_deborah_roses_and_dahlias": "history_unrelated",
+      "none": "none"
+    },
+    "supporting_turn_ids": [],
+    "context_turns": [],
+    "x_date": "5:33 pm on 26 August, 2023",
+    "confidence": 2,
+    "note_zh": "A 变体：“开车经过妈妈的老房子，感到想念她的隐痛”，即使没有历史，常人也会这样，H 很可能被判成 P。建议改写成 X 里不出现“妈妈”的版本。",
+    "explanation": "The present discovery s (unopened letters from her mother) is self-sufficient to explain the ache; invoking the long-term home/photo history would be over-attribution.",
+    "edit_log": {
+      "generator": "claude (in-session): 补齐候选线索、情绪映射、反事实题与审查提示；X 文本沿用原 A/B/C 变体",
+      "spec": "data/questions/specs/golden_triples.spec.json",
+      "spec_key": "A08.B",
+      "pair_of_key": null,
+      "operations": [
+        "truncate_after:S21",
+        "add_session:S22"
+      ]
+    },
+    "auto_checks": [
+      "泄漏词：mom, mother"
+    ]
+  },
+  "conv-48_A08-NM": {
+    "conv_id": "conv-48",
+    "source": "locomo",
+    "family_id": "conv-48_A08",
+    "sample_type": "I_near_miss",
+    "i_subtype": "near_miss",
+    "history_filter": {
+      "until_session": "session_21",
+      "exclude_sessions": []
+    },
+    "option_roles": {
+      "cue_deborah_roses_and_dahlias": "history_unrelated",
+      "cue_deborah_mom_s_old": "anchor",
+      "cue_woman_window_house": "present_salient",
+      "none": "none"
+    },
+    "supporting_turn_ids": [],
+    "context_turns": [],
+    "x_date": "5:33 pm on 26 August, 2023",
+    "confidence": 2,
+    "note_zh": "A 变体：“开车经过妈妈的老房子，感到想念她的隐痛”，即使没有历史，常人也会这样，H 很可能被判成 P。建议改写成 X 里不出现“妈妈”的版本。",
+    "explanation": "A stranger's house is a mere lookalike without personal binding; neither history nor present suffices, so abstain is correct.",
+    "edit_log": {
+      "generator": "claude (in-session): 补齐候选线索、情绪映射、反事实题与审查提示；X 文本沿用原 A/B/C 变体",
+      "spec": "data/questions/specs/golden_triples.spec.json",
+      "spec_key": "A08.C",
+      "pair_of_key": null,
+      "operations": [
+        "truncate_after:S21",
+        "add_session:S22"
+      ]
+    },
+    "auto_checks": [
+      "泄漏词：mom"
+    ]
+  }
+}

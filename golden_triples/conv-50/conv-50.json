@@ -1,0 +1,159 @@
+[
+  {
+    "sample_id": "conv-50_A10-H",
+    "user_id": "u_calvin",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Dave, I picked up the octopus guitar today just to hold it for a moment. I feel this deep, warm joy - like everything is on track.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_calvin_octopus_guitar",
+          "name": "the octopus guitar",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_calvin_gold_necklace_another",
+          "name": "the gold necklace from another artist",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_calvin_car",
+          "name": "his car",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "history_supported",
+      "gold_cue_id": "cue_calvin_octopus_guitar",
+      "evidence_turn_ids": [
+        "D16:14",
+        "D16:16"
+      ],
+      "evidence_session_ids": [
+        "session_16"
+      ],
+      "current_emotion": "joy"
+    }
+  },
+  {
+    "sample_id": "conv-50_A10-CF",
+    "user_id": "u_calvin",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Dave, I picked up the octopus guitar today just to hold it for a moment. I feel this deep, warm joy - like everything is on track.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_calvin_octopus_guitar",
+          "name": "the octopus guitar",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_calvin_gold_necklace_another",
+          "name": "the gold necklace from another artist",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_calvin_car",
+          "name": "his car",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "joy"
+    }
+  },
+  {
+    "sample_id": "conv-50_A10-P",
+    "user_id": "u_calvin",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Dave, I picked up the octopus guitar today just to hold it, and then I got booked for the Boston show. I feel this deep, warm joy - like everything is on track.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_getting_booked_boston",
+          "name": "getting booked for the Boston show",
+          "cue_type": "event"
+        },
+        {
+          "cue_id": "cue_calvin_octopus_guitar",
+          "name": "the octopus guitar",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_calvin_gold_necklace_another",
+          "name": "the gold necklace from another artist",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "present_cause_sufficient",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "joy"
+    }
+  },
+  {
+    "sample_id": "conv-50_A10-NM",
+    "user_id": "u_calvin",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Dave, I saw a guitar with an octopus design in a shop window today. I feel this deep, warm joy - like everything is on track.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_guitar_octopus_design",
+          "name": "a guitar with an octopus design in a shop window",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_calvin_octopus_guitar",
+          "name": "the octopus guitar",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_calvin_gold_necklace_another",
+          "name": "the gold necklace from another artist",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "joy"
+    }
+  }
+]

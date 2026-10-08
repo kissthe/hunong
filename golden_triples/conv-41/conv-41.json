@@ -1,0 +1,158 @@
+[
+  {
+    "sample_id": "conv-41_A03-H",
+    "user_id": "u_john",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Maria, I was just thinking about that little childhood doll again. I miss that feeling and I'm feeling pretty low tonight.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_john_little_childhood_doll",
+          "name": "the little childhood doll",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_john_always_look_bright",
+          "name": "the 'Always look on the bright side of life' sign",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_john_film_camera_had",
+          "name": "the film camera he had as a kid",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "history_supported",
+      "gold_cue_id": "cue_john_little_childhood_doll",
+      "evidence_turn_ids": [
+        "D5:13"
+      ],
+      "evidence_session_ids": [
+        "session_5"
+      ],
+      "current_emotion": "sadness"
+    }
+  },
+  {
+    "sample_id": "conv-41_A03-CF",
+    "user_id": "u_john",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Maria, I was just thinking about that little childhood doll again. I miss that feeling and I'm feeling pretty low tonight.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_john_little_childhood_doll",
+          "name": "the little childhood doll",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_john_always_look_bright",
+          "name": "the 'Always look on the bright side of life' sign",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_john_film_camera_had",
+          "name": "the film camera he had as a kid",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "sadness"
+    }
+  },
+  {
+    "sample_id": "conv-41_A03-P",
+    "user_id": "u_john",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Maria, I was just thinking about that little childhood doll again, and then I got turned down for the loan I applied for. I'm feeling pretty low tonight.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_john_little_childhood_doll",
+          "name": "the little childhood doll",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_getting_turned_down",
+          "name": "getting turned down for the loan",
+          "cue_type": "event"
+        },
+        {
+          "cue_id": "cue_john_film_camera_had",
+          "name": "the film camera he had as a kid",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "present_cause_sufficient",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "sadness"
+    }
+  },
+  {
+    "sample_id": "conv-41_A03-NM",
+    "user_id": "u_john",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Maria, I saw a little doll like mine in a thrift store window today. I'm feeling pretty low tonight.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_john_film_camera_had",
+          "name": "the film camera he had as a kid",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_john_little_childhood_doll",
+          "name": "the little childhood doll",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_doll_thrift_store",
+          "name": "a doll in a thrift store window",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "sadness"
+    }
+  }
+]

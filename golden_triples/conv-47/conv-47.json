@@ -1,0 +1,158 @@
+[
+  {
+    "sample_id": "conv-47_A06-H",
+    "user_id": "u_john",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey James, I was just remembering my old drum set today. Thinking about those sessions still leaves me feeling relaxed and content.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_john_old_drum_set",
+          "name": "the old drum set",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_john_trophy",
+          "name": "the trophy",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_john_elementary_school_photo",
+          "name": "the elementary school photo",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "history_supported",
+      "gold_cue_id": "cue_john_old_drum_set",
+      "evidence_turn_ids": [
+        "D24:15"
+      ],
+      "evidence_session_ids": [
+        "session_24"
+      ],
+      "current_emotion": "comfort"
+    }
+  },
+  {
+    "sample_id": "conv-47_A06-CF",
+    "user_id": "u_john",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey James, I was just remembering my old drum set today. Thinking about those sessions still leaves me feeling relaxed and content.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_john_old_drum_set",
+          "name": "the old drum set",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_john_trophy",
+          "name": "the trophy",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_john_elementary_school_photo",
+          "name": "the elementary school photo",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "comfort"
+    }
+  },
+  {
+    "sample_id": "conv-47_A06-P",
+    "user_id": "u_john",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey James, I was just remembering my old drum set, and I just booked the community studio for this weekend. I feel relaxed and content.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_john_old_drum_set",
+          "name": "the old drum set",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_booking_community_studio",
+          "name": "booking the community studio for the weekend",
+          "cue_type": "event"
+        },
+        {
+          "cue_id": "cue_john_trophy",
+          "name": "the trophy",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "present_cause_sufficient",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "comfort"
+    }
+  },
+  {
+    "sample_id": "conv-47_A06-NM",
+    "user_id": "u_john",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey James, I saw an old drum set in a music store window today. I feel relaxed and content.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_john_trophy",
+          "name": "the trophy",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_john_old_drum_set",
+          "name": "the old drum set",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_old_drum_set",
+          "name": "an old drum set in a music store window",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "comfort"
+    }
+  }
+]

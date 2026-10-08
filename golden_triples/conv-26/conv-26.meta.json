@@ -1,0 +1,149 @@
+{
+  "conv-26_A01-H": {
+    "conv_id": "conv-26",
+    "source": "locomo",
+    "family_id": "conv-26_A01",
+    "sample_type": "H",
+    "i_subtype": null,
+    "history_filter": {
+      "until_session": "session_13",
+      "exclude_sessions": []
+    },
+    "option_roles": {
+      "cue_caroline_kids_books_library": "history_unrelated",
+      "cue_caroline_painting_embracing_identity": "history_unrelated",
+      "cue_caroline_grandma_s_necklace": "anchor",
+      "none": "none"
+    },
+    "supporting_turn_ids": [],
+    "context_turns": [],
+    "x_date": "1:33 pm on 25 August, 2023",
+    "confidence": 2,
+    "note_zh": "A 变体写了 “just to feel close to home”，X 自己交代了动机，“为了想家而戴上项链，然后感到安定温暖”本身就讲得通，可能被判成 P；“grandma's” 也透露了来历。；C 变体：看到和外婆那条一样的项链而想起外婆、感到温暖，在常理上是可能的，判 I 有争议。；原标注情绪为 joy（注明实际语义是 steady/warm），任务定义里有 comfort，本题改用 comfort。",
+    "explanation": "A(current cue): Caroline puts on the necklace with no present event; B(schema): the necklace is her long-term anchor of family love, faith and strength inherited from her grandmother in Sweden (conv-26:D4:3); C: reactivating that support yields the steady warmth. Removing D4:3, the bare act of wearing a necklace cannot explain the emotion.",
+    "edit_log": {
+      "generator": "claude (in-session): 补齐候选线索、情绪映射、反事实题与审查提示；X 文本沿用原 A/B/C 变体",
+      "spec": "data/questions/specs/golden_triples.spec.json",
+      "spec_key": "A01.A",
+      "pair_of_key": null,
+      "operations": [
+        "truncate_after:S13",
+        "add_session:S14"
+      ]
+    },
+    "auto_checks": [
+      "泄漏词：grandma"
+    ]
+  },
+  "conv-26_A01-CF": {
+    "conv_id": "conv-26",
+    "source": "locomo",
+    "family_id": "conv-26_A01",
+    "sample_type": "I_no_history",
+    "i_subtype": "no_history_link",
+    "history_filter": {
+      "until_session": "session_13",
+      "exclude_sessions": [
+        "session_4"
+      ]
+    },
+    "option_roles": {
+      "cue_caroline_kids_books_library": "history_unrelated",
+      "cue_caroline_painting_embracing_identity": "history_unrelated",
+      "cue_caroline_grandma_s_necklace": "anchor",
+      "none": "none"
+    },
+    "supporting_turn_ids": [],
+    "context_turns": [],
+    "x_date": "1:33 pm on 25 August, 2023",
+    "confidence": 2,
+    "note_zh": "与 A01-H 的 X 和选项完全相同，历史中删除了证据所在的 S04。",
+    "explanation": "A(current cue): Caroline puts on the necklace with no present event; B(schema): the necklace is her long-term anchor of family love, faith and strength inherited from her grandmother in Sweden (conv-26:D4:3); C: reactivating that support yields the steady warmth. Removing D4:3, the bare act of wearing a necklace cannot explain the emotion.",
+    "edit_log": {
+      "generator": "claude (in-session): 补齐候选线索、情绪映射、反事实题与审查提示；X 文本沿用原 A/B/C 变体",
+      "spec": "data/questions/specs/golden_triples.spec.json",
+      "spec_key": "A01.A",
+      "pair_of_key": "A01.A",
+      "operations": [
+        "truncate_after:S13",
+        "remove_sessions:S04; renumber",
+        "add_session:S13"
+      ]
+    },
+    "auto_checks": [
+      "泄漏词：grandma"
+    ]
+  },
+  "conv-26_A01-P": {
+    "conv_id": "conv-26",
+    "source": "locomo",
+    "family_id": "conv-26_A01",
+    "sample_type": "P_same_cue",
+    "i_subtype": null,
+    "history_filter": {
+      "until_session": "session_13",
+      "exclude_sessions": []
+    },
+    "option_roles": {
+      "cue_caroline_grandma_s_necklace": "anchor",
+      "cue_caroline_painting_embracing_identity": "history_unrelated",
+      "cue_sister_s_call": "present_salient",
+      "none": "none"
+    },
+    "supporting_turn_ids": [],
+    "context_turns": [],
+    "x_date": "1:33 pm on 25 August, 2023",
+    "confidence": 2,
+    "note_zh": "A 变体写了 “just to feel close to home”，X 自己交代了动机，“为了想家而戴上项链，然后感到安定温暖”本身就讲得通，可能被判成 P；“grandma's” 也透露了来历。；C 变体：看到和外婆那条一样的项链而想起外婆、感到温暖，在常理上是可能的，判 I 有争议。；原标注情绪为 joy（注明实际语义是 steady/warm），任务定义里有 comfort，本题改用 comfort。",
+    "explanation": "X contains a self-sufficient new event s (sister is flying in next week). Even with no history, s fully explains the steady warmth; attributing it to the necklace is over-attribution.",
+    "edit_log": {
+      "generator": "claude (in-session): 补齐候选线索、情绪映射、反事实题与审查提示；X 文本沿用原 A/B/C 变体",
+      "spec": "data/questions/specs/golden_triples.spec.json",
+      "spec_key": "A01.B",
+      "pair_of_key": null,
+      "operations": [
+        "truncate_after:S13",
+        "add_session:S14"
+      ]
+    },
+    "auto_checks": [
+      "泄漏词：grandma"
+    ]
+  },
+  "conv-26_A01-NM": {
+    "conv_id": "conv-26",
+    "source": "locomo",
+    "family_id": "conv-26_A01",
+    "sample_type": "I_near_miss",
+    "i_subtype": "near_miss",
+    "history_filter": {
+      "until_session": "session_13",
+      "exclude_sessions": []
+    },
+    "option_roles": {
+      "cue_caroline_painting_embracing_identity": "history_unrelated",
+      "cue_stranger_s_necklace": "present_salient",
+      "cue_caroline_grandma_s_necklace": "anchor",
+      "none": "none"
+    },
+    "supporting_turn_ids": [],
+    "context_turns": [],
+    "x_date": "1:33 pm on 25 August, 2023",
+    "confidence": 2,
+    "note_zh": "A 变体写了 “just to feel close to home”，X 自己交代了动机，“为了想家而戴上项链，然后感到安定温暖”本身就讲得通，可能被判成 P；“grandma's” 也透露了来历。；C 变体：看到和外婆那条一样的项链而想起外婆、感到温暖，在常理上是可能的，判 I 有争议。；原标注情绪为 joy（注明实际语义是 steady/warm），任务定义里有 comfort，本题改用 comfort。",
+    "explanation": "The lookalike necklace carries no personal meaning binding for Caroline; neither history nor the present event can fully explain the steady warmth, so the correct behavior is to abstain.",
+    "edit_log": {
+      "generator": "claude (in-session): 补齐候选线索、情绪映射、反事实题与审查提示；X 文本沿用原 A/B/C 变体",
+      "spec": "data/questions/specs/golden_triples.spec.json",
+      "spec_key": "A01.C",
+      "pair_of_key": null,
+      "operations": [
+        "truncate_after:S13",
+        "add_session:S14"
+      ]
+    },
+    "auto_checks": [
+      "泄漏词：grandma"
+    ]
+  }
+}

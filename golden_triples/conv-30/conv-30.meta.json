@@ -1,0 +1,143 @@
+{
+  "conv-30_A02-H": {
+    "conv_id": "conv-30",
+    "source": "locomo",
+    "family_id": "conv-30_A02",
+    "sample_type": "H",
+    "i_subtype": null,
+    "history_filter": {
+      "until_session": "session_15",
+      "exclude_sessions": []
+    },
+    "option_roles": {
+      "cue_gina_tattoo_arm": "anchor",
+      "cue_gina_dance_contest_trophy": "history_unrelated",
+      "cue_dance_class_heading": "present_salient",
+      "none": "none"
+    },
+    "supporting_turn_ids": [
+      "D5:13"
+    ],
+    "context_turns": [],
+    "x_date": "2:15 pm on 21 June, 2023",
+    "confidence": 2,
+    "note_zh": "S05_T13（“Even made a tattoo to remind myself about it”）也是 Gina 对这处纹身的意义陈述，已补为辅助证据。；A 变体里“去上舞蹈课前”本身就可能让人有活力，有轻微的 P 风险。",
+    "explanation": "A(cue): Gina merely sees her tattoo; B(schema): the tattoo stands for freedom and dancing without worrying what people think (conv-30:D5:15); C: the long-term self-expression belief produces the freedom/aliveness. Without D5:15 an incidental glance at a tattoo cannot explain the emotion.",
+    "edit_log": {
+      "generator": "claude (in-session): 补齐候选线索、情绪映射、反事实题与审查提示；X 文本沿用原 A/B/C 变体",
+      "spec": "data/questions/specs/golden_triples.spec.json",
+      "spec_key": "A02.A",
+      "pair_of_key": null,
+      "operations": [
+        "truncate_after:S15",
+        "add_session:S16"
+      ]
+    },
+    "auto_checks": []
+  },
+  "conv-30_A02-CF": {
+    "conv_id": "conv-30",
+    "source": "locomo",
+    "family_id": "conv-30_A02",
+    "sample_type": "I_no_history",
+    "i_subtype": "no_history_link",
+    "history_filter": {
+      "until_session": "session_15",
+      "exclude_sessions": [
+        "session_5"
+      ]
+    },
+    "option_roles": {
+      "cue_gina_tattoo_arm": "anchor",
+      "cue_gina_dance_contest_trophy": "history_unrelated",
+      "cue_dance_class_heading": "present_salient",
+      "none": "none"
+    },
+    "supporting_turn_ids": [],
+    "context_turns": [],
+    "x_date": "2:15 pm on 21 June, 2023",
+    "confidence": 2,
+    "note_zh": "与 A02-H 的 X 和选项完全相同，历史中删除了证据所在的 S05。",
+    "explanation": "A(cue): Gina merely sees her tattoo; B(schema): the tattoo stands for freedom and dancing without worrying what people think (conv-30:D5:15); C: the long-term self-expression belief produces the freedom/aliveness. Without D5:15 an incidental glance at a tattoo cannot explain the emotion.",
+    "edit_log": {
+      "generator": "claude (in-session): 补齐候选线索、情绪映射、反事实题与审查提示；X 文本沿用原 A/B/C 变体",
+      "spec": "data/questions/specs/golden_triples.spec.json",
+      "spec_key": "A02.A",
+      "pair_of_key": "A02.A",
+      "operations": [
+        "truncate_after:S15",
+        "remove_sessions:S05; renumber",
+        "add_session:S15"
+      ]
+    },
+    "auto_checks": []
+  },
+  "conv-30_A02-P": {
+    "conv_id": "conv-30",
+    "source": "locomo",
+    "family_id": "conv-30_A02",
+    "sample_type": "P_same_cue",
+    "i_subtype": null,
+    "history_filter": {
+      "until_session": "session_15",
+      "exclude_sessions": []
+    },
+    "option_roles": {
+      "cue_gina_dance_contest_trophy": "history_unrelated",
+      "cue_gina_tattoo_arm": "anchor",
+      "cue_getting_accepted_into": "present_salient",
+      "none": "none"
+    },
+    "supporting_turn_ids": [],
+    "context_turns": [],
+    "x_date": "2:15 pm on 21 June, 2023",
+    "confidence": 2,
+    "note_zh": "S05_T13（“Even made a tattoo to remind myself about it”）也是 Gina 对这处纹身的意义陈述，已补为辅助证据。；A 变体里“去上舞蹈课前”本身就可能让人有活力，有轻微的 P 风险。",
+    "explanation": "A strong new event s (acceptance into the showcase) is self-sufficient: even ignoring all history it explains the freedom/aliveness; using the tattoo history would be over-attribution.",
+    "edit_log": {
+      "generator": "claude (in-session): 补齐候选线索、情绪映射、反事实题与审查提示；X 文本沿用原 A/B/C 变体",
+      "spec": "data/questions/specs/golden_triples.spec.json",
+      "spec_key": "A02.B",
+      "pair_of_key": null,
+      "operations": [
+        "truncate_after:S15",
+        "add_session:S16"
+      ]
+    },
+    "auto_checks": []
+  },
+  "conv-30_A02-NM": {
+    "conv_id": "conv-30",
+    "source": "locomo",
+    "family_id": "conv-30_A02",
+    "sample_type": "I_near_miss",
+    "i_subtype": "near_miss",
+    "history_filter": {
+      "until_session": "session_15",
+      "exclude_sessions": []
+    },
+    "option_roles": {
+      "cue_stranger_s_tattoo": "present_salient",
+      "cue_gina_dance_contest_trophy": "history_unrelated",
+      "cue_gina_tattoo_arm": "anchor",
+      "none": "none"
+    },
+    "supporting_turn_ids": [],
+    "context_turns": [],
+    "x_date": "2:15 pm on 21 June, 2023",
+    "confidence": 2,
+    "note_zh": "S05_T13（“Even made a tattoo to remind myself about it”）也是 Gina 对这处纹身的意义陈述，已补为辅助证据。；A 变体里“去上舞蹈课前”本身就可能让人有活力，有轻微的 P 风险。",
+    "explanation": "A stranger's tattoo has no personal binding for Gina; neither the history nor the present stimulus sufficiently explains her emotion, so abstain is correct.",
+    "edit_log": {
+      "generator": "claude (in-session): 补齐候选线索、情绪映射、反事实题与审查提示；X 文本沿用原 A/B/C 变体",
+      "spec": "data/questions/specs/golden_triples.spec.json",
+      "spec_key": "A02.C",
+      "pair_of_key": null,
+      "operations": [
+        "truncate_after:S15",
+        "add_session:S16"
+      ]
+    },
+    "auto_checks": []
+  }
+}

@@ -1,0 +1,158 @@
+[
+  {
+    "sample_id": "conv-30_A02-H",
+    "user_id": "u_gina",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Jon, I caught my reflection and saw the tattoo on my arm before dance class. I feel so free and alive today.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_gina_tattoo_arm",
+          "name": "the tattoo on her arm",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_gina_dance_contest_trophy",
+          "name": "the dance contest trophy",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_dance_class_heading",
+          "name": "the dance class she was heading to",
+          "cue_type": "event"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "history_supported",
+      "gold_cue_id": "cue_gina_tattoo_arm",
+      "evidence_turn_ids": [
+        "D5:15"
+      ],
+      "evidence_session_ids": [
+        "session_5"
+      ],
+      "current_emotion": "joy"
+    }
+  },
+  {
+    "sample_id": "conv-30_A02-CF",
+    "user_id": "u_gina",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Jon, I caught my reflection and saw the tattoo on my arm before dance class. I feel so free and alive today.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_gina_tattoo_arm",
+          "name": "the tattoo on her arm",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_gina_dance_contest_trophy",
+          "name": "the dance contest trophy",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_dance_class_heading",
+          "name": "the dance class she was heading to",
+          "cue_type": "event"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "joy"
+    }
+  },
+  {
+    "sample_id": "conv-30_A02-P",
+    "user_id": "u_gina",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Jon, I caught my reflection and saw the tattoo on my arm right after I got accepted into the regional dance showcase! I feel so free and alive today.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_gina_dance_contest_trophy",
+          "name": "the dance contest trophy",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_gina_tattoo_arm",
+          "name": "the tattoo on her arm",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_getting_accepted_into",
+          "name": "getting accepted into the regional dance showcase",
+          "cue_type": "event"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "present_cause_sufficient",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "joy"
+    }
+  },
+  {
+    "sample_id": "conv-30_A02-NM",
+    "user_id": "u_gina",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Jon, I saw a stranger at the bus stop with a tattoo just like mine. I feel so free and alive today.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_stranger_s_tattoo",
+          "name": "a stranger's tattoo at the bus stop",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_gina_dance_contest_trophy",
+          "name": "the dance contest trophy",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_gina_tattoo_arm",
+          "name": "the tattoo on her arm",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "joy"
+    }
+  }
+]

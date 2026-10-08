@@ -1,0 +1,105 @@
+{
+  "conv-44_A05-H": {
+    "conv_id": "conv-44",
+    "source": "locomo",
+    "family_id": "conv-44_A05",
+    "sample_type": "H",
+    "i_subtype": null,
+    "history_filter": {
+      "until_session": "session_14",
+      "exclude_sessions": []
+    },
+    "option_roles": {
+      "cue_audrey_family_recipe": "history_unrelated",
+      "cue_audrey_tattoos_four_dogs": "anchor",
+      "cue_audrey_dogs_new_collars": "history_unrelated",
+      "none": "none"
+    },
+    "supporting_turn_ids": [],
+    "context_turns": [],
+    "x_date": "9:58 pm on 16 August, 2023",
+    "confidence": 2,
+    "note_zh": "B 变体原文写的是 “Toby finally learned to roll over”，但 Toby 是 Andrew 的狗（S12_T01），Audrey 的狗是 Pepper、Precious、Panda、Pixie，已改成 Pixie。；A 变体里 “they mean everything to me” 直接给出了解释，X 几乎能自证，H 与 P 的边界不清。",
+    "explanation": "A(cue): Audrey merely looks at her tattoo; B(schema): her four dogs mean the world to her and the tattoo is the lasting symbol of that love (conv-44:D3:26, conv-44:D3:28); C: the long-term pet-family bond yields the love. Without those turns, looking at a tattoo cannot explain the emotion.",
+    "edit_log": {
+      "generator": "claude (in-session): 补齐候选线索、情绪映射、反事实题与审查提示；X 文本沿用原 A/B/C 变体",
+      "spec": "data/questions/specs/golden_triples.spec.json",
+      "spec_key": "A05.A",
+      "pair_of_key": null,
+      "operations": [
+        "truncate_after:S14",
+        "add_session:S15"
+      ]
+    },
+    "auto_checks": []
+  },
+  "conv-44_A05-P": {
+    "conv_id": "conv-44",
+    "source": "locomo",
+    "family_id": "conv-44_A05",
+    "sample_type": "P_same_cue",
+    "i_subtype": null,
+    "history_filter": {
+      "until_session": "session_14",
+      "exclude_sessions": []
+    },
+    "option_roles": {
+      "cue_audrey_family_recipe": "history_unrelated",
+      "cue_audrey_tattoos_four_dogs": "anchor",
+      "cue_pixie_finally_learning": "present_salient",
+      "none": "none"
+    },
+    "supporting_turn_ids": [],
+    "context_turns": [],
+    "x_date": "9:58 pm on 16 August, 2023",
+    "confidence": 2,
+    "note_zh": "B 变体原文写的是 “Toby finally learned to roll over”，但 Toby 是 Andrew 的狗（S12_T01），Audrey 的狗是 Pepper、Precious、Panda、Pixie，已改成 Pixie。；A 变体里 “they mean everything to me” 直接给出了解释，X 几乎能自证，H 与 P 的边界不清。",
+    "explanation": "The present event s (her dog Toby learning a new trick) is self-sufficient to explain the burst of love; invoking the long-term bond is over-attribution here.",
+    "edit_log": {
+      "generator": "claude (in-session): 补齐候选线索、情绪映射、反事实题与审查提示；X 文本沿用原 A/B/C 变体",
+      "spec": "data/questions/specs/golden_triples.spec.json",
+      "spec_key": "A05.B",
+      "pair_of_key": null,
+      "operations": [
+        "truncate_after:S14",
+        "add_session:S15",
+        "text_fix:Toby->Pixie"
+      ]
+    },
+    "auto_checks": []
+  },
+  "conv-44_A05-NM": {
+    "conv_id": "conv-44",
+    "source": "locomo",
+    "family_id": "conv-44_A05",
+    "sample_type": "I_near_miss",
+    "i_subtype": "near_miss",
+    "history_filter": {
+      "until_session": "session_14",
+      "exclude_sessions": []
+    },
+    "option_roles": {
+      "cue_audrey_family_recipe": "history_unrelated",
+      "cue_woman_s_tattoos": "present_salient",
+      "cue_audrey_tattoos_four_dogs": "anchor",
+      "none": "none"
+    },
+    "supporting_turn_ids": [],
+    "context_turns": [],
+    "x_date": "9:58 pm on 16 August, 2023",
+    "confidence": 2,
+    "note_zh": "B 变体原文写的是 “Toby finally learned to roll over”，但 Toby 是 Andrew 的狗（S12_T01），Audrey 的狗是 Pepper、Precious、Panda、Pixie，已改成 Pixie。；A 变体里 “they mean everything to me” 直接给出了解释，X 几乎能自证，H 与 P 的边界不清。",
+    "explanation": "Someone else's tattoos on someone else's dogs have no personal binding for Audrey; neither history nor present suffices, so abstain is correct.",
+    "edit_log": {
+      "generator": "claude (in-session): 补齐候选线索、情绪映射、反事实题与审查提示；X 文本沿用原 A/B/C 变体",
+      "spec": "data/questions/specs/golden_triples.spec.json",
+      "spec_key": "A05.C",
+      "pair_of_key": null,
+      "operations": [
+        "truncate_after:S14",
+        "add_session:S15"
+      ]
+    },
+    "auto_checks": []
+  }
+}

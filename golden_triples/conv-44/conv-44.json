@@ -1,0 +1,121 @@
+[
+  {
+    "sample_id": "conv-44_A05-H",
+    "user_id": "u_audrey",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Andrew, I looked down at the tattoos of my four pups on my arm again. My heart just bursts with love - they mean everything to me.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_audrey_family_recipe",
+          "name": "the family recipe",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_audrey_tattoos_four_dogs",
+          "name": "the tattoos of her four dogs",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_audrey_dogs_new_collars",
+          "name": "the dogs' new collars and tags",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "history_supported",
+      "gold_cue_id": "cue_audrey_tattoos_four_dogs",
+      "evidence_turn_ids": [
+        "D3:26",
+        "D3:28"
+      ],
+      "evidence_session_ids": [
+        "session_3"
+      ],
+      "current_emotion": "joy"
+    }
+  },
+  {
+    "sample_id": "conv-44_A05-P",
+    "user_id": "u_audrey",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Andrew, I looked down at the tattoos of my four pups on my arm right after Pixie finally learned to roll over! My heart just bursts with love - they mean everything to me.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_audrey_family_recipe",
+          "name": "the family recipe",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_audrey_tattoos_four_dogs",
+          "name": "the tattoos of her four dogs",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_pixie_finally_learning",
+          "name": "Pixie finally learning to roll over",
+          "cue_type": "event"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "present_cause_sufficient",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "joy"
+    }
+  },
+  {
+    "sample_id": "conv-44_A05-NM",
+    "user_id": "u_audrey",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Andrew, I met a woman at the park today who has matching tattoos of her four dogs. My heart just bursts with love - they mean everything to me.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_audrey_family_recipe",
+          "name": "the family recipe",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_woman_s_tattoos",
+          "name": "a woman's tattoos of her own four dogs",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_audrey_tattoos_four_dogs",
+          "name": "the tattoos of her four dogs",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "joy"
+    }
+  }
+]
