@@ -1,0 +1,158 @@
+[
+  {
+    "sample_id": "conv-43_A04-H",
+    "user_id": "u_john",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Tim, I laced up my old basketball shoes and stepped on the court alone. Standing there, I feel so proud and determined.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_empty_court",
+          "name": "the empty court",
+          "cue_type": "scene"
+        },
+        {
+          "cue_id": "cue_john_old_basketball_shoes",
+          "name": "the old basketball shoes",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_john_ball_signed_teammates",
+          "name": "the ball signed by his teammates",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "history_supported",
+      "gold_cue_id": "cue_john_old_basketball_shoes",
+      "evidence_turn_ids": [
+        "D6:11"
+      ],
+      "evidence_session_ids": [
+        "session_6"
+      ],
+      "current_emotion": "joy"
+    }
+  },
+  {
+    "sample_id": "conv-43_A04-CF",
+    "user_id": "u_john",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Tim, I laced up my old basketball shoes and stepped on the court alone. Standing there, I feel so proud and determined.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_empty_court",
+          "name": "the empty court",
+          "cue_type": "scene"
+        },
+        {
+          "cue_id": "cue_john_old_basketball_shoes",
+          "name": "the old basketball shoes",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_john_ball_signed_teammates",
+          "name": "the ball signed by his teammates",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "joy"
+    }
+  },
+  {
+    "sample_id": "conv-43_A04-P",
+    "user_id": "u_john",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Tim, I laced up my old basketball shoes and I hit ten three-pointers in a row. Standing there, I feel so proud and determined.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_hitting_ten_three",
+          "name": "hitting ten three-pointers in a row",
+          "cue_type": "event"
+        },
+        {
+          "cue_id": "cue_john_ball_signed_teammates",
+          "name": "the ball signed by his teammates",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_john_old_basketball_shoes",
+          "name": "the old basketball shoes",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "present_cause_sufficient",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "joy"
+    }
+  },
+  {
+    "sample_id": "conv-43_A04-NM",
+    "user_id": "u_john",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Tim, I saw the same model of basketball shoes on a clearance rack today. I feel so proud and determined.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_john_ball_signed_teammates",
+          "name": "the ball signed by his teammates",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_john_old_basketball_shoes",
+          "name": "the old basketball shoes",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_same_shoe_model",
+          "name": "the same shoe model on a clearance rack",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "joy"
+    }
+  }
+]

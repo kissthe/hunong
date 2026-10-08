@@ -1,0 +1,159 @@
+[
+  {
+    "sample_id": "conv-48_A07-H",
+    "user_id": "u_jolene",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Deb, I put on the Paris pendant again today and I just miss my mom so much - got a little teary.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_jolene_paris_pendant",
+          "name": "the Paris pendant",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_jolene_snake_susie",
+          "name": "her snake Susie",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_jolene_bullet_journal",
+          "name": "the bullet journal",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "history_supported",
+      "gold_cue_id": "cue_jolene_paris_pendant",
+      "evidence_turn_ids": [
+        "D1:8",
+        "D1:10"
+      ],
+      "evidence_session_ids": [
+        "session_1"
+      ],
+      "current_emotion": "sadness"
+    }
+  },
+  {
+    "sample_id": "conv-48_A07-CF",
+    "user_id": "u_jolene",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Deb, I put on the Paris pendant again today and I just miss my mom so much - got a little teary.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_jolene_paris_pendant",
+          "name": "the Paris pendant",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_jolene_snake_susie",
+          "name": "her snake Susie",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_jolene_bullet_journal",
+          "name": "the bullet journal",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "sadness"
+    }
+  },
+  {
+    "sample_id": "conv-48_A07-P",
+    "user_id": "u_jolene",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Deb, I put on the Paris pendant again today because it would have been my mom's birthday. I just miss her so much - got a little teary.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_jolene_paris_pendant",
+          "name": "the Paris pendant",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_jolene_bullet_journal",
+          "name": "the bullet journal",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_mom_s_birthday",
+          "name": "her mom's birthday",
+          "cue_type": "event"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "present_cause_sufficient",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "sadness"
+    }
+  },
+  {
+    "sample_id": "conv-48_A07-NM",
+    "user_id": "u_jolene",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Deb, a colleague showed me a pendant she bought in Paris today. I just miss my mom so much - got a little teary.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_jolene_paris_pendant",
+          "name": "the Paris pendant",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_jolene_bullet_journal",
+          "name": "the bullet journal",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_colleague_s_pendant",
+          "name": "a colleague's pendant bought in Paris",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "sadness"
+    }
+  }
+]

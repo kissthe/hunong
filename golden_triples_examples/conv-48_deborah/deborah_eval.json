@@ -1,0 +1,122 @@
+[
+  {
+    "sample_id": "conv-48_A08-H",
+    "user_id": "u_deborah",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Jolene, I drove past mom's old street today and stopped outside our old house. Sitting there, I felt that quiet ache of missing her.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_deborah_roses_and_dahlias",
+          "name": "the roses and dahlias",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_deborah_dried_bouquet_friend",
+          "name": "the dried bouquet from a friend",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_deborah_mom_s_old",
+          "name": "mom's old house",
+          "cue_type": "scene"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "history_supported",
+      "gold_cue_id": "cue_deborah_mom_s_old",
+      "evidence_turn_ids": [
+        "D1:5",
+        "D2:13"
+      ],
+      "evidence_session_ids": [
+        "session_1",
+        "session_2"
+      ],
+      "current_emotion": "sadness"
+    }
+  },
+  {
+    "sample_id": "conv-48_A08-P",
+    "user_id": "u_deborah",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Jolene, I drove past mom's old street today and stopped outside our old house, where I found a box of her old letters I had never opened. I felt that quiet ache of missing her.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_deborah_mom_s_old",
+          "name": "mom's old house",
+          "cue_type": "scene"
+        },
+        {
+          "cue_id": "cue_finding_box_mother",
+          "name": "finding a box of her mother's unopened letters",
+          "cue_type": "event"
+        },
+        {
+          "cue_id": "cue_deborah_roses_and_dahlias",
+          "name": "the roses and dahlias",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "present_cause_sufficient",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "sadness"
+    }
+  },
+  {
+    "sample_id": "conv-48_A08-NM",
+    "user_id": "u_deborah",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Jolene, I saw a woman sitting by a window in a house just like mom's today. I felt that quiet ache of missing her.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_deborah_roses_and_dahlias",
+          "name": "the roses and dahlias",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_deborah_mom_s_old",
+          "name": "mom's old house",
+          "cue_type": "scene"
+        },
+        {
+          "cue_id": "cue_woman_window_house",
+          "name": "a woman by the window of a house like mom's",
+          "cue_type": "scene"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "sadness"
+    }
+  }
+]
