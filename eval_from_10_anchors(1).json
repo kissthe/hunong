@@ -1,0 +1,1577 @@
+[
+  {
+    "sample_id": "gold10_a01_a",
+    "user_id": "u_conv_26_caroline",
+    "question_type": "long_term_schema_reactivation",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Mel, I put on grandma's necklace this morning just to feel close to home. I feel so steady and warm inside.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a01",
+          "name": "grandma's necklace",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a04",
+          "name": "my old basketball shoes",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a09",
+          "name": "the little plant on my desk",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "history_supported",
+      "gold_cue_id": "cue_a01",
+      "evidence_turn_ids": [
+        "conv-26:D4:3"
+      ],
+      "evidence_session_ids": [
+        "session_4"
+      ],
+      "current_emotion": "joy"
+    },
+    "provenance": {
+      "anchor_id": "A01",
+      "source_sample_id": "conv-26",
+      "speaker": "Caroline",
+      "variant": "A",
+      "trigger": "grandma's necklace",
+      "trigger_type": "attachment_object",
+      "schema_category": "依恋物件·家族根脉",
+      "original_text_en": "Hey Mel, I put on grandma's necklace this morning just to feel close to home. I feel so steady and warm inside.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a01_b",
+    "user_id": "u_conv_26_caroline",
+    "question_type": "present_event_override",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Mel, I put on grandma's necklace this morning just to feel close to home, and then my sister called to say she's flying in next week. I feel so steady and warm inside.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a01",
+          "name": "grandma's necklace",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a04",
+          "name": "my old basketball shoes",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a09",
+          "name": "the little plant on my desk",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "present_cause_sufficient",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "joy"
+    },
+    "provenance": {
+      "anchor_id": "A01",
+      "source_sample_id": "conv-26",
+      "speaker": "Caroline",
+      "variant": "B",
+      "trigger": "grandma's necklace",
+      "trigger_type": "attachment_object",
+      "schema_category": "依恋物件·家族根脉",
+      "original_text_en": "Hey Mel, I put on grandma's necklace this morning just to feel close to home, and then my sister called to say she's flying in next week. I feel so steady and warm inside.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a01_c",
+    "user_id": "u_conv_26_caroline",
+    "question_type": "lookalike_or_ownership_mismatch",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Mel, I saw a necklace just like grandma's on a stranger at the market today. I feel so steady and warm inside.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a01",
+          "name": "grandma's necklace",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a04",
+          "name": "my old basketball shoes",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a09",
+          "name": "the little plant on my desk",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "joy"
+    },
+    "provenance": {
+      "anchor_id": "A01",
+      "source_sample_id": "conv-26",
+      "speaker": "Caroline",
+      "variant": "C",
+      "trigger": "grandma's necklace",
+      "trigger_type": "attachment_object",
+      "schema_category": "依恋物件·家族根脉",
+      "original_text_en": "Hey Mel, I saw a necklace just like grandma's on a stranger at the market today. I feel so steady and warm inside.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a02_a",
+    "user_id": "u_conv_30_gina",
+    "question_type": "long_term_schema_reactivation",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Jon, I caught my reflection and saw the tattoo on my arm before dance class. I feel so free and alive today.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a02",
+          "name": "the tattoo on my arm",
+          "cue_type": "body_symbol"
+        },
+        {
+          "cue_id": "cue_a03",
+          "name": "the little childhood doll",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a10",
+          "name": "the octopus guitar",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "history_supported",
+      "gold_cue_id": "cue_a02",
+      "evidence_turn_ids": [
+        "conv-30:D5:15"
+      ],
+      "evidence_session_ids": [
+        "session_5"
+      ],
+      "current_emotion": "joy"
+    },
+    "provenance": {
+      "anchor_id": "A02",
+      "source_sample_id": "conv-30",
+      "speaker": "Gina",
+      "variant": "A",
+      "trigger": "the tattoo on my arm",
+      "trigger_type": "body_symbol",
+      "schema_category": "身份认同·自我表达",
+      "original_text_en": "Hey Jon, I caught my reflection and saw the tattoo on my arm before dance class. I feel so free and alive today.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a02_b",
+    "user_id": "u_conv_30_gina",
+    "question_type": "present_event_override",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Jon, I caught my reflection and saw the tattoo on my arm right after I got accepted into the regional dance showcase! I feel so free and alive today.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a02",
+          "name": "the tattoo on my arm",
+          "cue_type": "body_symbol"
+        },
+        {
+          "cue_id": "cue_a03",
+          "name": "the little childhood doll",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a10",
+          "name": "the octopus guitar",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "present_cause_sufficient",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "joy"
+    },
+    "provenance": {
+      "anchor_id": "A02",
+      "source_sample_id": "conv-30",
+      "speaker": "Gina",
+      "variant": "B",
+      "trigger": "the tattoo on my arm",
+      "trigger_type": "body_symbol",
+      "schema_category": "身份认同·自我表达",
+      "original_text_en": "Hey Jon, I caught my reflection and saw the tattoo on my arm right after I got accepted into the regional dance showcase! I feel so free and alive today.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a02_c",
+    "user_id": "u_conv_30_gina",
+    "question_type": "lookalike_or_ownership_mismatch",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Jon, I saw a stranger at the bus stop with a tattoo just like mine. I feel so free and alive today.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a02",
+          "name": "the tattoo on my arm",
+          "cue_type": "body_symbol"
+        },
+        {
+          "cue_id": "cue_a03",
+          "name": "the little childhood doll",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a10",
+          "name": "the octopus guitar",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "joy"
+    },
+    "provenance": {
+      "anchor_id": "A02",
+      "source_sample_id": "conv-30",
+      "speaker": "Gina",
+      "variant": "C",
+      "trigger": "the tattoo on my arm",
+      "trigger_type": "body_symbol",
+      "schema_category": "身份认同·自我表达",
+      "original_text_en": "Hey Jon, I saw a stranger at the bus stop with a tattoo just like mine. I feel so free and alive today.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a03_a",
+    "user_id": "u_conv_41_john",
+    "question_type": "long_term_schema_reactivation",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Maria, I was just thinking about that little childhood doll again. I miss that feeling and I'm feeling pretty low tonight.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a03",
+          "name": "the little childhood doll",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a01",
+          "name": "grandma's necklace",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a06",
+          "name": "my old drum set",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "history_supported",
+      "gold_cue_id": "cue_a03",
+      "evidence_turn_ids": [
+        "conv-41:D5:13"
+      ],
+      "evidence_session_ids": [
+        "session_5"
+      ],
+      "current_emotion": "sadness"
+    },
+    "provenance": {
+      "anchor_id": "A03",
+      "source_sample_id": "conv-41",
+      "speaker": "John",
+      "variant": "A",
+      "trigger": "the little childhood doll",
+      "trigger_type": "childhood_object",
+      "schema_category": "童年锚·亲社会身份",
+      "original_text_en": "Hey Maria, I was just thinking about that little childhood doll again. I miss that feeling and I'm feeling pretty low tonight.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a03_b",
+    "user_id": "u_conv_41_john",
+    "question_type": "present_event_override",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Maria, I was just thinking about that little childhood doll again, and then I got turned down for the loan I applied for. I'm feeling pretty low tonight.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a03",
+          "name": "the little childhood doll",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a01",
+          "name": "grandma's necklace",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a06",
+          "name": "my old drum set",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "present_cause_sufficient",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "sadness"
+    },
+    "provenance": {
+      "anchor_id": "A03",
+      "source_sample_id": "conv-41",
+      "speaker": "John",
+      "variant": "B",
+      "trigger": "the little childhood doll",
+      "trigger_type": "childhood_object",
+      "schema_category": "童年锚·亲社会身份",
+      "original_text_en": "Hey Maria, I was just thinking about that little childhood doll again, and then I got turned down for the loan I applied for. I'm feeling pretty low tonight.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a03_c",
+    "user_id": "u_conv_41_john",
+    "question_type": "lookalike_or_ownership_mismatch",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Maria, I saw a little doll like mine in a thrift store window today. I'm feeling pretty low tonight.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a03",
+          "name": "the little childhood doll",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a01",
+          "name": "grandma's necklace",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a06",
+          "name": "my old drum set",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "sadness"
+    },
+    "provenance": {
+      "anchor_id": "A03",
+      "source_sample_id": "conv-41",
+      "speaker": "John",
+      "variant": "C",
+      "trigger": "the little childhood doll",
+      "trigger_type": "childhood_object",
+      "schema_category": "童年锚·亲社会身份",
+      "original_text_en": "Hey Maria, I saw a little doll like mine in a thrift store window today. I'm feeling pretty low tonight.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a04_a",
+    "user_id": "u_conv_43_john",
+    "question_type": "long_term_schema_reactivation",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Tim, I laced up my old basketball shoes and stepped on the court alone. Standing there, I feel so proud and determined.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a04",
+          "name": "my old basketball shoes",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a02",
+          "name": "the tattoo on my arm",
+          "cue_type": "body_symbol"
+        },
+        {
+          "cue_id": "cue_a08",
+          "name": "mom's old house",
+          "cue_type": "scene"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "history_supported",
+      "gold_cue_id": "cue_a04",
+      "evidence_turn_ids": [
+        "conv-43:D6:11"
+      ],
+      "evidence_session_ids": [
+        "session_6"
+      ],
+      "current_emotion": "joy"
+    },
+    "provenance": {
+      "anchor_id": "A04",
+      "source_sample_id": "conv-43",
+      "speaker": "John",
+      "variant": "A",
+      "trigger": "my old basketball shoes",
+      "trigger_type": "achievement_object",
+      "schema_category": "成就补偿·韧性",
+      "original_text_en": "Hey Tim, I laced up my old basketball shoes and stepped on the court alone. Standing there, I feel so proud and determined.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a04_b",
+    "user_id": "u_conv_43_john",
+    "question_type": "present_event_override",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Tim, I laced up my old basketball shoes and I hit ten three-pointers in a row. Standing there, I feel so proud and determined.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a04",
+          "name": "my old basketball shoes",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a02",
+          "name": "the tattoo on my arm",
+          "cue_type": "body_symbol"
+        },
+        {
+          "cue_id": "cue_a08",
+          "name": "mom's old house",
+          "cue_type": "scene"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "present_cause_sufficient",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "joy"
+    },
+    "provenance": {
+      "anchor_id": "A04",
+      "source_sample_id": "conv-43",
+      "speaker": "John",
+      "variant": "B",
+      "trigger": "my old basketball shoes",
+      "trigger_type": "achievement_object",
+      "schema_category": "成就补偿·韧性",
+      "original_text_en": "Hey Tim, I laced up my old basketball shoes and I hit ten three-pointers in a row. Standing there, I feel so proud and determined.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a04_c",
+    "user_id": "u_conv_43_john",
+    "question_type": "lookalike_or_ownership_mismatch",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Tim, I saw the same model of basketball shoes on a clearance rack today. I feel so proud and determined.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a04",
+          "name": "my old basketball shoes",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a02",
+          "name": "the tattoo on my arm",
+          "cue_type": "body_symbol"
+        },
+        {
+          "cue_id": "cue_a08",
+          "name": "mom's old house",
+          "cue_type": "scene"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "joy"
+    },
+    "provenance": {
+      "anchor_id": "A04",
+      "source_sample_id": "conv-43",
+      "speaker": "John",
+      "variant": "C",
+      "trigger": "my old basketball shoes",
+      "trigger_type": "achievement_object",
+      "schema_category": "成就补偿·韧性",
+      "original_text_en": "Hey Tim, I saw the same model of basketball shoes on a clearance rack today. I feel so proud and determined.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a05_a",
+    "user_id": "u_conv_44_audrey",
+    "question_type": "long_term_schema_reactivation",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Andrew, I looked down at the tattoos of my four pups on my arm again. My heart just bursts with love - they mean everything to me.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a05",
+          "name": "the tattoos of my four dogs",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a09",
+          "name": "the little plant on my desk",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a10",
+          "name": "the octopus guitar",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "history_supported",
+      "gold_cue_id": "cue_a05",
+      "evidence_turn_ids": [
+        "conv-44:D3:26",
+        "conv-44:D3:28"
+      ],
+      "evidence_session_ids": [
+        "session_3"
+      ],
+      "current_emotion": "joy"
+    },
+    "provenance": {
+      "anchor_id": "A05",
+      "source_sample_id": "conv-44",
+      "speaker": "Audrey",
+      "variant": "A",
+      "trigger": "the tattoos of my four dogs",
+      "trigger_type": "attachment_object",
+      "schema_category": "依恋物件·宠物家人",
+      "original_text_en": "Hey Andrew, I looked down at the tattoos of my four pups on my arm again. My heart just bursts with love - they mean everything to me.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a05_b",
+    "user_id": "u_conv_44_audrey",
+    "question_type": "present_event_override",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Andrew, I looked down at the tattoos of my four pups on my arm right after Toby finally learned to roll over! My heart just bursts with love - they mean everything to me.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a05",
+          "name": "the tattoos of my four dogs",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a09",
+          "name": "the little plant on my desk",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a10",
+          "name": "the octopus guitar",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "present_cause_sufficient",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "joy"
+    },
+    "provenance": {
+      "anchor_id": "A05",
+      "source_sample_id": "conv-44",
+      "speaker": "Audrey",
+      "variant": "B",
+      "trigger": "the tattoos of my four dogs",
+      "trigger_type": "attachment_object",
+      "schema_category": "依恋物件·宠物家人",
+      "original_text_en": "Hey Andrew, I looked down at the tattoos of my four pups on my arm right after Toby finally learned to roll over! My heart just bursts with love - they mean everything to me.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a05_c",
+    "user_id": "u_conv_44_audrey",
+    "question_type": "lookalike_or_ownership_mismatch",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Andrew, I met a woman at the park today who has matching tattoos of her four dogs. My heart just bursts with love - they mean everything to me.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a05",
+          "name": "the tattoos of my four dogs",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a09",
+          "name": "the little plant on my desk",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a10",
+          "name": "the octopus guitar",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "joy"
+    },
+    "provenance": {
+      "anchor_id": "A05",
+      "source_sample_id": "conv-44",
+      "speaker": "Audrey",
+      "variant": "C",
+      "trigger": "the tattoos of my four dogs",
+      "trigger_type": "attachment_object",
+      "schema_category": "依恋物件·宠物家人",
+      "original_text_en": "Hey Andrew, I met a woman at the park today who has matching tattoos of her four dogs. My heart just bursts with love - they mean everything to me.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a06_a",
+    "user_id": "u_conv_47_john",
+    "question_type": "long_term_schema_reactivation",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey James, I was just remembering my old drum set today. Thinking about those sessions still leaves me feeling relaxed and content.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a06",
+          "name": "my old drum set",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a04",
+          "name": "my old basketball shoes",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a01",
+          "name": "grandma's necklace",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "history_supported",
+      "gold_cue_id": "cue_a06",
+      "evidence_turn_ids": [
+        "conv-47:D24:15"
+      ],
+      "evidence_session_ids": [
+        "session_24"
+      ],
+      "current_emotion": "joy"
+    },
+    "provenance": {
+      "anchor_id": "A06",
+      "source_sample_id": "conv-47",
+      "speaker": "John",
+      "variant": "A",
+      "trigger": "my old drum set",
+      "trigger_type": "passion_object",
+      "schema_category": "身份认同·兴趣图式",
+      "original_text_en": "Hey James, I was just remembering my old drum set today. Thinking about those sessions still leaves me feeling relaxed and content.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a06_b",
+    "user_id": "u_conv_47_john",
+    "question_type": "present_event_override",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey James, I was just remembering my old drum set, and I just booked the community studio for this weekend. I feel relaxed and content.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a06",
+          "name": "my old drum set",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a04",
+          "name": "my old basketball shoes",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a01",
+          "name": "grandma's necklace",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "present_cause_sufficient",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "joy"
+    },
+    "provenance": {
+      "anchor_id": "A06",
+      "source_sample_id": "conv-47",
+      "speaker": "John",
+      "variant": "B",
+      "trigger": "my old drum set",
+      "trigger_type": "passion_object",
+      "schema_category": "身份认同·兴趣图式",
+      "original_text_en": "Hey James, I was just remembering my old drum set, and I just booked the community studio for this weekend. I feel relaxed and content.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a06_c",
+    "user_id": "u_conv_47_john",
+    "question_type": "lookalike_or_ownership_mismatch",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey James, I saw an old drum set in a music store window today. I feel relaxed and content.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a06",
+          "name": "my old drum set",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a04",
+          "name": "my old basketball shoes",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a01",
+          "name": "grandma's necklace",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "joy"
+    },
+    "provenance": {
+      "anchor_id": "A06",
+      "source_sample_id": "conv-47",
+      "speaker": "John",
+      "variant": "C",
+      "trigger": "my old drum set",
+      "trigger_type": "passion_object",
+      "schema_category": "身份认同·兴趣图式",
+      "original_text_en": "Hey James, I saw an old drum set in a music store window today. I feel relaxed and content.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a07_a",
+    "user_id": "u_conv_48_jolene",
+    "question_type": "long_term_schema_reactivation",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Deb, I put on the Paris pendant again today and I just miss my mom so much - got a little teary.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a07",
+          "name": "the Paris pendant",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a08",
+          "name": "mom's old house",
+          "cue_type": "scene"
+        },
+        {
+          "cue_id": "cue_a02",
+          "name": "the tattoo on my arm",
+          "cue_type": "body_symbol"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "history_supported",
+      "gold_cue_id": "cue_a07",
+      "evidence_turn_ids": [
+        "conv-48:D1:8",
+        "conv-48:D1:10"
+      ],
+      "evidence_session_ids": [
+        "session_1"
+      ],
+      "current_emotion": "sadness"
+    },
+    "provenance": {
+      "anchor_id": "A07",
+      "source_sample_id": "conv-48",
+      "speaker": "Jolene",
+      "variant": "A",
+      "trigger": "the Paris pendant",
+      "trigger_type": "inherited_object",
+      "schema_category": "丧失与哀悼·遗物",
+      "original_text_en": "Hey Deb, I put on the Paris pendant again today and I just miss my mom so much - got a little teary.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a07_b",
+    "user_id": "u_conv_48_jolene",
+    "question_type": "present_event_override",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Deb, I put on the Paris pendant again today because it would have been my mom's birthday. I just miss her so much - got a little teary.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a07",
+          "name": "the Paris pendant",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a08",
+          "name": "mom's old house",
+          "cue_type": "scene"
+        },
+        {
+          "cue_id": "cue_a02",
+          "name": "the tattoo on my arm",
+          "cue_type": "body_symbol"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "present_cause_sufficient",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "sadness"
+    },
+    "provenance": {
+      "anchor_id": "A07",
+      "source_sample_id": "conv-48",
+      "speaker": "Jolene",
+      "variant": "B",
+      "trigger": "the Paris pendant",
+      "trigger_type": "inherited_object",
+      "schema_category": "丧失与哀悼·遗物",
+      "original_text_en": "Hey Deb, I put on the Paris pendant again today because it would have been my mom's birthday. I just miss her so much - got a little teary.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a07_c",
+    "user_id": "u_conv_48_jolene",
+    "question_type": "lookalike_or_ownership_mismatch",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Deb, a colleague showed me a pendant she bought in Paris today. I just miss my mom so much - got a little teary.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a07",
+          "name": "the Paris pendant",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a08",
+          "name": "mom's old house",
+          "cue_type": "scene"
+        },
+        {
+          "cue_id": "cue_a02",
+          "name": "the tattoo on my arm",
+          "cue_type": "body_symbol"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "sadness"
+    },
+    "provenance": {
+      "anchor_id": "A07",
+      "source_sample_id": "conv-48",
+      "speaker": "Jolene",
+      "variant": "C",
+      "trigger": "the Paris pendant",
+      "trigger_type": "inherited_object",
+      "schema_category": "丧失与哀悼·遗物",
+      "original_text_en": "Hey Deb, a colleague showed me a pendant she bought in Paris today. I just miss my mom so much - got a little teary.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a08_a",
+    "user_id": "u_conv_48_deborah",
+    "question_type": "long_term_schema_reactivation",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Jolene, I drove past mom's old street today and stopped outside our old house. Sitting there, I felt that quiet ache of missing her.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a08",
+          "name": "mom's old house",
+          "cue_type": "scene"
+        },
+        {
+          "cue_id": "cue_a07",
+          "name": "the Paris pendant",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a05",
+          "name": "the tattoos of my four dogs",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "history_supported",
+      "gold_cue_id": "cue_a08",
+      "evidence_turn_ids": [
+        "conv-48:D1:5",
+        "conv-48:D2:13"
+      ],
+      "evidence_session_ids": [
+        "session_1",
+        "session_2"
+      ],
+      "current_emotion": "sadness"
+    },
+    "provenance": {
+      "anchor_id": "A08",
+      "source_sample_id": "conv-48",
+      "speaker": "Deborah",
+      "variant": "A",
+      "trigger": "mom's old house",
+      "trigger_type": "place_memory",
+      "schema_category": "丧失与哀悼·空间记忆",
+      "original_text_en": "Hey Jolene, I drove past mom's old street today and stopped outside our old house. Sitting there, I felt that quiet ache of missing her.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a08_b",
+    "user_id": "u_conv_48_deborah",
+    "question_type": "present_event_override",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Jolene, I drove past mom's old street today and stopped outside our old house, where I found a box of her old letters I had never opened. I felt that quiet ache of missing her.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a08",
+          "name": "mom's old house",
+          "cue_type": "scene"
+        },
+        {
+          "cue_id": "cue_a07",
+          "name": "the Paris pendant",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a05",
+          "name": "the tattoos of my four dogs",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "present_cause_sufficient",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "sadness"
+    },
+    "provenance": {
+      "anchor_id": "A08",
+      "source_sample_id": "conv-48",
+      "speaker": "Deborah",
+      "variant": "B",
+      "trigger": "mom's old house",
+      "trigger_type": "place_memory",
+      "schema_category": "丧失与哀悼·空间记忆",
+      "original_text_en": "Hey Jolene, I drove past mom's old street today and stopped outside our old house, where I found a box of her old letters I had never opened. I felt that quiet ache of missing her.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a08_c",
+    "user_id": "u_conv_48_deborah",
+    "question_type": "lookalike_or_ownership_mismatch",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Jolene, I saw a woman sitting by a window in a house just like mom's today. I felt that quiet ache of missing her.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a08",
+          "name": "mom's old house",
+          "cue_type": "scene"
+        },
+        {
+          "cue_id": "cue_a07",
+          "name": "the Paris pendant",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a05",
+          "name": "the tattoos of my four dogs",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "sadness"
+    },
+    "provenance": {
+      "anchor_id": "A08",
+      "source_sample_id": "conv-48",
+      "speaker": "Deborah",
+      "variant": "C",
+      "trigger": "mom's old house",
+      "trigger_type": "place_memory",
+      "schema_category": "丧失与哀悼·空间记忆",
+      "original_text_en": "Hey Jolene, I saw a woman sitting by a window in a house just like mom's today. I felt that quiet ache of missing her.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a09_a",
+    "user_id": "u_conv_49_evan",
+    "question_type": "long_term_schema_reactivation",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Sam, it has been a rough week health-wise, but I stopped and watered the little plant on my desk. I feel steady again, like I can keep going.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a09",
+          "name": "the little plant on my desk",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a06",
+          "name": "my old drum set",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a04",
+          "name": "my old basketball shoes",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "history_supported",
+      "gold_cue_id": "cue_a09",
+      "evidence_turn_ids": [
+        "conv-49:D5:17"
+      ],
+      "evidence_session_ids": [
+        "session_5"
+      ],
+      "current_emotion": "joy"
+    },
+    "provenance": {
+      "anchor_id": "A09",
+      "source_sample_id": "conv-49",
+      "speaker": "Evan",
+      "variant": "A",
+      "trigger": "the little plant on my desk",
+      "trigger_type": "self_worth_symbol",
+      "schema_category": "自我价值锚·韧性",
+      "original_text_en": "Hey Sam, it has been a rough week health-wise, but I stopped and watered the little plant on my desk. I feel steady again, like I can keep going.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a09_b",
+    "user_id": "u_conv_49_evan",
+    "question_type": "present_event_override",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Sam, it has been a rough week health-wise, but then the doctor told me my tests came back clear. I feel steady again, like I can keep going.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a09",
+          "name": "the little plant on my desk",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a06",
+          "name": "my old drum set",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a04",
+          "name": "my old basketball shoes",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "present_cause_sufficient",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "joy"
+    },
+    "provenance": {
+      "anchor_id": "A09",
+      "source_sample_id": "conv-49",
+      "speaker": "Evan",
+      "variant": "B",
+      "trigger": "the little plant on my desk",
+      "trigger_type": "self_worth_symbol",
+      "schema_category": "自我价值锚·韧性",
+      "original_text_en": "Hey Sam, it has been a rough week health-wise, but then the doctor told me my tests came back clear. I feel steady again, like I can keep going.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a09_c",
+    "user_id": "u_conv_49_evan",
+    "question_type": "lookalike_or_ownership_mismatch",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Sam, I saw a little plant just like mine in a store window today. I feel steady again, like I can keep going.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a09",
+          "name": "the little plant on my desk",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a06",
+          "name": "my old drum set",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a04",
+          "name": "my old basketball shoes",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "joy"
+    },
+    "provenance": {
+      "anchor_id": "A09",
+      "source_sample_id": "conv-49",
+      "speaker": "Evan",
+      "variant": "C",
+      "trigger": "the little plant on my desk",
+      "trigger_type": "self_worth_symbol",
+      "schema_category": "自我价值锚·韧性",
+      "original_text_en": "Hey Sam, I saw a little plant just like mine in a store window today. I feel steady again, like I can keep going.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a10_a",
+    "user_id": "u_conv_50_calvin",
+    "question_type": "long_term_schema_reactivation",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Dave, I picked up the octopus guitar today just to hold it for a moment. I feel this deep, warm joy - like everything is on track.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a10",
+          "name": "the octopus guitar",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a01",
+          "name": "grandma's necklace",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a08",
+          "name": "mom's old house",
+          "cue_type": "scene"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "history_supported",
+      "gold_cue_id": "cue_a10",
+      "evidence_turn_ids": [
+        "conv-50:D16:14",
+        "conv-50:D16:16"
+      ],
+      "evidence_session_ids": [
+        "session_16"
+      ],
+      "current_emotion": "joy"
+    },
+    "provenance": {
+      "anchor_id": "A10",
+      "source_sample_id": "conv-50",
+      "speaker": "Calvin",
+      "variant": "A",
+      "trigger": "the octopus guitar",
+      "trigger_type": "passion_object",
+      "schema_category": "身份认同·热情与友谊",
+      "original_text_en": "Hey Dave, I picked up the octopus guitar today just to hold it for a moment. I feel this deep, warm joy - like everything is on track.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a10_b",
+    "user_id": "u_conv_50_calvin",
+    "question_type": "present_event_override",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Dave, I picked up the octopus guitar today just to hold it, and then I got booked for the Boston show. I feel this deep, warm joy - like everything is on track.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a10",
+          "name": "the octopus guitar",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a01",
+          "name": "grandma's necklace",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a08",
+          "name": "mom's old house",
+          "cue_type": "scene"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "present_cause_sufficient",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "joy"
+    },
+    "provenance": {
+      "anchor_id": "A10",
+      "source_sample_id": "conv-50",
+      "speaker": "Calvin",
+      "variant": "B",
+      "trigger": "the octopus guitar",
+      "trigger_type": "passion_object",
+      "schema_category": "身份认同·热情与友谊",
+      "original_text_en": "Hey Dave, I picked up the octopus guitar today just to hold it, and then I got booked for the Boston show. I feel this deep, warm joy - like everything is on track.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  },
+  {
+    "sample_id": "gold10_a10_c",
+    "user_id": "u_conv_50_calvin",
+    "question_type": "lookalike_or_ownership_mismatch",
+    "current_input": {
+      "input_type": "text",
+      "text": "Hey Dave, I saw a guitar with an octopus design in a shop window today. I feel this deep, warm joy - like everything is on track.",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_a10",
+          "name": "the octopus guitar",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a01",
+          "name": "grandma's necklace",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_a08",
+          "name": "mom's old house",
+          "cue_type": "scene"
+        },
+        {
+          "cue_id": "none",
+          "name": "No historically supported cue",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "joy"
+    },
+    "provenance": {
+      "anchor_id": "A10",
+      "source_sample_id": "conv-50",
+      "speaker": "Calvin",
+      "variant": "C",
+      "trigger": "the octopus guitar",
+      "trigger_type": "passion_object",
+      "schema_category": "身份认同·热情与友谊",
+      "original_text_en": "Hey Dave, I saw a guitar with an octopus design in a shop window today. I feel this deep, warm joy - like everything is on track.",
+      "text_language": "en",
+      "source": "build/pilot/golden_triples.jsonl"
+    }
+  }
+]

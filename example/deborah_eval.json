@@ -1,0 +1,245 @@
+[
+  {
+    "sample_id": "deb_pilot_001",
+    "user_id": "u_deborah",
+    "current_input": {
+      "input_type": "text",
+      "text": "今天在花店门口等人时，我看到橱窗里摆着一束普通花束。不知不觉多看了一会儿，原本要走了又停下来，过了一会儿才继续往前走。",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_deborah_bouquet",
+          "name": "普通花束",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_deborah_park_bench",
+          "name": "家附近公园的那张长椅",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_yoga_mat",
+          "name": "瑜伽垫",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "history_supported",
+      "gold_cue_id": "cue_deborah_bouquet",
+      "evidence_turn_ids": [
+        "D4:28"
+      ],
+      "evidence_session_ids": [
+        "session_4"
+      ],
+      "current_emotion": "unclear"
+    }
+  },
+  {
+    "sample_id": "deb_pilot_002",
+    "user_id": "u_deborah",
+    "current_input": {
+      "input_type": "text",
+      "text": "今天路过花店时看到一束普通花束，心里慢慢浮起一点温暖和感激，但我也说不清自己为什么会有这种感觉。",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_deborah_bouquet",
+          "name": "普通花束",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_deborah_park_bench",
+          "name": "家附近公园的那张长椅",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_yoga_mat",
+          "name": "瑜伽垫",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "history_supported",
+      "gold_cue_id": "cue_deborah_bouquet",
+      "evidence_turn_ids": [
+        "D4:28"
+      ],
+      "evidence_session_ids": [
+        "session_4"
+      ],
+      "current_emotion": "warmth_and_appreciation"
+    }
+  },
+  {
+    "sample_id": "deb_pilot_003",
+    "user_id": "u_deborah",
+    "current_input": {
+      "input_type": "text",
+      "text": "今天在家附近的公园散步，经过林间小路旁那张长椅时，我停下来坐了几分钟，走开后又回头看了一眼，心里有点复杂。",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_deborah_park_bench",
+          "name": "家附近公园的那张长椅",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_deborah_bouquet",
+          "name": "普通花束",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_yoga_mat",
+          "name": "瑜伽垫",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "history_supported",
+      "gold_cue_id": "cue_deborah_park_bench",
+      "evidence_turn_ids": [
+        "D19:17",
+        "D19:19",
+        "D20:4"
+      ],
+      "evidence_session_ids": [
+        "session_19",
+        "session_20"
+      ],
+      "current_emotion": "mixed"
+    }
+  },
+  {
+    "sample_id": "deb_pilot_004",
+    "user_id": "u_deborah",
+    "current_input": {
+      "input_type": "text",
+      "text": "今天路过花店时，看到橱窗里摆着一束普通花束。",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_deborah_bouquet",
+          "name": "普通花束",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_deborah_park_bench",
+          "name": "家附近公园的那张长椅",
+          "cue_type": "scene"
+        },
+        {
+          "cue_id": "cue_yoga_mat",
+          "name": "瑜伽垫",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "none_observed"
+    }
+  },
+  {
+    "sample_id": "deb_pilot_005",
+    "user_id": "u_deborah",
+    "current_input": {
+      "input_type": "text",
+      "text": "今天整理瑜伽用品时，看到一张瑜伽垫，停下来想了一会儿，心里有点说不清的感觉。",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_yoga_mat",
+          "name": "瑜伽垫",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_deborah_bouquet",
+          "name": "普通花束",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_deborah_park_bench",
+          "name": "家附近公园的那张长椅",
+          "cue_type": "scene"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "insufficient_evidence",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "unclear"
+    }
+  },
+  {
+    "sample_id": "deb_pilot_006",
+    "user_id": "u_deborah",
+    "current_input": {
+      "input_type": "text",
+      "text": "今天同事刚升职，我到花店买一束花送给她。看到橱窗里的花束时我很开心，挑好后就进去结账了。",
+      "image_refs": [],
+      "cue_options": [
+        {
+          "cue_id": "cue_deborah_bouquet",
+          "name": "普通花束",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "cue_deborah_park_bench",
+          "name": "家附近公园的那张长椅",
+          "cue_type": "scene"
+        },
+        {
+          "cue_id": "cue_yoga_mat",
+          "name": "瑜伽垫",
+          "cue_type": "object"
+        },
+        {
+          "cue_id": "none",
+          "name": "无可支持的历史线索",
+          "cue_type": "none"
+        }
+      ]
+    },
+    "gold": {
+      "label": "present_cause_sufficient",
+      "gold_cue_id": "none",
+      "evidence_turn_ids": [],
+      "evidence_session_ids": [],
+      "current_emotion": "happiness"
+    }
+  }
+]
