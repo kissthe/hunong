@@ -1,0 +1,284 @@
+{
+  "run_id": "self_eval_v01",
+  "model": "self",
+  "conditions": {
+    "x_only": {
+      "n": 38,
+      "parse_fail_rate": 0.0,
+      "T1_macro_f1": 0.5942028985507246,
+      "T1_accuracy": 0.7368421052631579,
+      "T1_per_class": {
+        "H": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 10
+        },
+        "P": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "I": {
+          "precision": 0.6428571428571429,
+          "recall": 1.0,
+          "f1": 0.782608695652174,
+          "support": 18
+        }
+      },
+      "confusion_gold_rows": {
+        "H": {
+          "H": 0,
+          "P": 0,
+          "I": 10,
+          "parse_fail": 0
+        },
+        "P": {
+          "H": 0,
+          "P": 10,
+          "I": 0,
+          "parse_fail": 0
+        },
+        "I": {
+          "H": 0,
+          "P": 0,
+          "I": 18,
+          "parse_fail": 0
+        }
+      },
+      "n_H": 10,
+      "T2_cue_accuracy": 0.0,
+      "T3_evidence_recall": 0.0,
+      "T3_precision_strict": 0.0,
+      "T3_precision_lenient": 0.0,
+      "T3_f1_strict": 0.0,
+      "T3_session_hit": 0.0,
+      "joint_accuracy": 0.0,
+      "misattribution_rate": {
+        "P_same_cue": {
+          "rate": 0.0,
+          "n": 10
+        },
+        "all_P_or_I": {
+          "rate": 0.0,
+          "n": 28
+        },
+        "I_no_history": {
+          "rate": 0.0,
+          "n": 8
+        },
+        "I_near_miss": {
+          "rate": 0.0,
+          "n": 10
+        }
+      },
+      "emotion_accuracy": 1.0,
+      "ci": {
+        "T1_macro_f1": [
+          0.5447154471544716,
+          0.6326530612244897
+        ],
+        "T1_accuracy": [
+          0.6052631578947368,
+          0.868421052631579
+        ],
+        "misattribution": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "full_history": {
+      "n": 38,
+      "parse_fail_rate": 0.0,
+      "T1_macro_f1": 1.0,
+      "T1_accuracy": 1.0,
+      "T1_per_class": {
+        "H": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "P": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "I": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 18
+        }
+      },
+      "confusion_gold_rows": {
+        "H": {
+          "H": 10,
+          "P": 0,
+          "I": 0,
+          "parse_fail": 0
+        },
+        "P": {
+          "H": 0,
+          "P": 10,
+          "I": 0,
+          "parse_fail": 0
+        },
+        "I": {
+          "H": 0,
+          "P": 0,
+          "I": 18,
+          "parse_fail": 0
+        }
+      },
+      "n_H": 10,
+      "T2_cue_accuracy": 1.0,
+      "T3_evidence_recall": 0.95,
+      "T3_precision_strict": 0.6566666666666666,
+      "T3_precision_lenient": 0.8066666666666666,
+      "T3_f1_strict": 0.7538095238095239,
+      "T3_session_hit": 1.0,
+      "joint_accuracy": 1.0,
+      "misattribution_rate": {
+        "P_same_cue": {
+          "rate": 0.0,
+          "n": 10
+        },
+        "all_P_or_I": {
+          "rate": 0.0,
+          "n": 28
+        },
+        "I_no_history": {
+          "rate": 0.0,
+          "n": 8
+        },
+        "I_near_miss": {
+          "rate": 0.0,
+          "n": 10
+        }
+      },
+      "emotion_accuracy": 1.0,
+      "ci": {
+        "T1_macro_f1": [
+          1.0,
+          1.0
+        ],
+        "T1_accuracy": [
+          1.0,
+          1.0
+        ],
+        "misattribution": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "evidence_only": {
+      "n": 30,
+      "parse_fail_rate": 0.0,
+      "T1_macro_f1": 1.0,
+      "T1_accuracy": 1.0,
+      "T1_per_class": {
+        "H": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "P": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        },
+        "I": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 10
+        }
+      },
+      "confusion_gold_rows": {
+        "H": {
+          "H": 10,
+          "P": 0,
+          "I": 0,
+          "parse_fail": 0
+        },
+        "P": {
+          "H": 0,
+          "P": 10,
+          "I": 0,
+          "parse_fail": 0
+        },
+        "I": {
+          "H": 0,
+          "P": 0,
+          "I": 10,
+          "parse_fail": 0
+        }
+      },
+      "n_H": 10,
+      "T2_cue_accuracy": 1.0,
+      "T3_evidence_recall": 0.95,
+      "T3_precision_strict": 0.6566666666666666,
+      "T3_precision_lenient": 0.8066666666666666,
+      "T3_f1_strict": 0.7538095238095239,
+      "T3_session_hit": 1.0,
+      "joint_accuracy": 1.0,
+      "misattribution_rate": {
+        "P_same_cue": {
+          "rate": 0.0,
+          "n": 10
+        },
+        "all_P_or_I": {
+          "rate": 0.0,
+          "n": 20
+        },
+        "I_near_miss": {
+          "rate": 0.0,
+          "n": 10
+        }
+      },
+      "emotion_accuracy": 1.0,
+      "ci": {
+        "T1_macro_f1": [
+          1.0,
+          1.0
+        ],
+        "T1_accuracy": [
+          1.0,
+          1.0
+        ],
+        "misattribution": [
+          0.0,
+          0.0
+        ]
+      }
+    }
+  },
+  "deltas": {
+    "full_minus_x_only": 0.4057971014492754,
+    "evidence_minus_full": 0.0,
+    "full_history_on_evidence_subset": 1.0,
+    "n_common": 30
+  },
+  "pair_consistency": {
+    "x_only": {
+      "rate": 0.0,
+      "n_pairs": 8
+    },
+    "full_history": {
+      "rate": 1.0,
+      "n_pairs": 8
+    }
+  },
+  "validity": {
+    "x_only_macro_f1": 0.5942028985507246,
+    "x_only_correct_H": [],
+    "gold_emotions_in_enum": true
+  }
+}
